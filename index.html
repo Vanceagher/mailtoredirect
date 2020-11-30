@@ -51,11 +51,12 @@
 </style>
 
 <script>const queryString = window.location.search;
+const queryString = window.location.search;
 console.log(queryString);
 
 const urlParams = new URLSearchParams(queryString);
 
 const email = urlParams.get('email')
 console.log(email);
-window.open("mailto:"+email);
+document.window.replace("mailto:"+email);
 </script>
